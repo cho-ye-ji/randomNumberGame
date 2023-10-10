@@ -1,8 +1,8 @@
-const yourNumberInput = document.querySelector(".numberInputBox p input.yourNumber");
+const yourNumberInput = document.querySelector(".numberInputBox p .yourNumber");
 const maxNumInput = document.querySelector(".numberInputBox .maxNumLine"); 
 const maxNumLine = maxNumInput.value; 
 const numberInputSubmit = document.querySelector(".numberInputSubmit");
-const greeting = document.querySelector("#greeting");
+const greeting = document.querySelector(".greeting");
 
 const HIDDEN_CLASSNSME = "hidden";
 

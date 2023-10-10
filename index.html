@@ -11,19 +11,16 @@
     <h1> Random Number Game </h1>
     <div class="numberInputBox">
         <p> <strong> Generate a number between 0 and </strong> 
-            <input type="number" min="1" max="" class="numberInput maxNumLine" >
+            <input required type="number" min="1" max="" class="numberInput maxNumLine" >
         </p>
     </div>
     <div class="numberInputBox">
         <p> Guess the number: 
-            <input type="number" min="1" max="" class="numberInput yourNumber" >
+            <input required type="number" min="1" max="" class="numberInput yourNumber" >
             <input type="submit" value="Play!" class="numberInputSubmit "> 
         </p>
-        <p class="greeeting hidden">           
-        </p>
-
     </div>
-
+    <p class="greeting hidden" > </p>
 
     <script src="./app.js"></script>
 </body>
