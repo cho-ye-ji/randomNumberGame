@@ -1,0 +1,10 @@
+body{ margin: 0; padding: 0;}
+.hidden{ display: none;}
+
+/* input = number */
+.numberInputBox { display: flex; align-items: center;}
+.numberInputBox .numberInput { width: 120px; height: 20px;}
+.numberInputBox .numberInputSubmit { padding: 4px 12px;}
+.numberInputBox p { margin: 10px 5px 10px 0; line-height: 20px; }
+.numberInputBox p strong{ font-size: 24px; }
+
